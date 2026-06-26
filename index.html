@@ -3,6 +3,11 @@
 <head>
     <title>Alfie's site'</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        const textures = ['water.jpg', 'lava.jpg'];
+        const chosen = textures[Math.floor(Math.random() * textures.length)];
+        document.body.style.backgroundImage = `url('${chosen}')`;
+    </script>
 </head>
 <body>
     <center>
