@@ -2,8 +2,8 @@ html {
   color: #ffffff;
   /* Set the background image and properties */
   background: url('water.jpg') repeat;
-  background-size: cover;
-  /* Animate the background position */
+  /* Remove background-size: cover to prevent stretching */
+  /* Animate the background for a slow scroll effect */
   animation: scroll-bg 30s linear infinite;
 }
 
