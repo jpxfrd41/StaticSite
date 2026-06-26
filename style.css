@@ -8,7 +8,7 @@ body {
 }
 
 a {
-    color: aqua;
+    color: #00ffff;
 }
 
 @keyframes diagonal-scroll {
