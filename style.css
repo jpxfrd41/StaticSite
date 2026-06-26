@@ -11,6 +11,10 @@ a {
     color: #00ffff;
 }
 
+.logo {
+    font-family: monospace;
+}
+
 @keyframes diagonal-scroll {
   from {
     background-position: 0 0;
