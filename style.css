@@ -1,18 +1,16 @@
 html {
   color: #ffffff;
-  /* Set the background image and properties */
-  background: url('water.jpg') repeat;
-  /* Remove background-size: cover to prevent stretching */
-  /* Animate the background for a slow scroll effect */
-  animation: scroll-bg 30s linear infinite;
+  background: url('water.jpg') repeat-x;
+  /* Animate the background for a slow horizontal scroll effect */
+  animation: scroll-bg-x 30s linear infinite;
 }
 
-/* Keyframes for scrolling background from top left to bottom right */
-@keyframes scroll-bg {
+/* Keyframes for scrolling background from left to right */
+@keyframes scroll-bg-x {
   0% {
     background-position: 0% 0%;
   }
   100% {
-    background-position: 100% 100%;
+    background-position: 100% 0%;
   }
 }
